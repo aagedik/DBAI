@@ -1,0 +1,19 @@
+# Dependencies
+node_modules/
+
+# Environment variables
+.env
+
+# Hardhat artifacts
+artifacts/
+cache/
+coverage/
+coverage.json
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Local private notes (do not track)
+proje detaylar?.txt

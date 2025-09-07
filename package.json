@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json.schemastore.org/package",
+  "name": "dbai-token",
+  "version": "1.0.0",
+  "description": "DUBAI AI (DBAI) – BEP20 charity token with 1% fee to charity wallet, burnable, pausable, ownable.",
+  "scripts": {
+    "build": "hardhat compile",
+    "test": "hardhat test",
+    "deploy:bsc": "hardhat run scripts/deploy.js --network bsc",
+    "verify:bsc": "hardhat run scripts/verify.js --network bsc",
+    "setup:bsc": "hardhat run scripts/post_deploy_setup.js --network bsc",
+    "owner:transfer": "hardhat run scripts/transfer_ownership.js --network bsc"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.10"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.2",
+    "dotenv": "^16.4.5"
+  }
+}
