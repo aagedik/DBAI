@@ -7,6 +7,11 @@ BEP‑20 (ERC‑20 uyumlu) hayır odaklı token:
 
 Kontratlar `OpenZeppelin` v5 üzerine inşa edilmiştir.
 
+## Project Links
+- Contract (BSC): `0xe9917a0a5978Dc11051DD674BbD7ceA55A1BA9B0`
+- PancakeSwap V2 Pair: `0x371b72C39e7DF3b153E136Ba90DAc02a72A044B3`
+- Website: https://dubaiproject.org
+
 ## Yapı
 - `contracts/DBAI.sol`: Ana token kontratı. Özellikler: `ERC20`, `ERC20Burnable`, `ERC20Pausable`, `Ownable` ve sabit %1 charity fee.
 - `contracts/LinearTokenVesting.sol`: Tek yararlanıcılı, cliff + lineer açılım yapan kilit kontratı.
@@ -86,3 +91,19 @@ Sonraki adım: Her yararlanıcı için ilgili vesting kontratına tahsis edilen 
 - Solidity: 0.8.24
 - OpenZeppelin: ^5.0.2
 - Hardhat: ^2.22.10
+
+---
+
+## Token Info (English Descriptions)
+
+### Short Description
+DUBAI AI (DBAI) is a community-driven BEP-20 token that donates a fixed, non-changeable 1% of every transfer to a transparent on-chain Charity Wallet. Built on OpenZeppelin, DBAI is burnable, pausable, and secure—enabling investors to do good while investing.
+
+### Long Description
+DUBAI AI (DBAI) unites the spirit of finance and technology to make every token movement a force for good. With a fixed and non-changeable 1% charity fee on every transfer, funds are automatically routed to a transparent on-chain Charity Wallet, then periodically donated to real-world causes such as tree planting, clean water projects, children’s education, and hunger relief.
+
+DBAI is implemented with industry-standard OpenZeppelin contracts and includes burnable, pausable, and ownable features. Trading is safely enabled only after liquidity provisioning. To ensure smooth DEX operations, core DEX addresses (router/pair) can be fee-exempt, while P2P transfers retain the 1% charity logic—keeping the impact active and predictable. The project’s guiding principle is simple: “Invest and do good.” Monthly “Charity Reports” with on-chain transaction links will be published on our website to maintain full transparency.
+
+Contract: 0xe9917a0a5978Dc11051DD674BbD7ceA55A1BA9B0
+
+Website: https://dubaiproject.org
